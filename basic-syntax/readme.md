@@ -1,10 +1,3 @@
-I’ll now rewrite your documentation in the **style of the PHP official manual** — structured with **Definition, Description, Parameters, Return Values, Examples, Notes** for each function (`echo`, `print`, `print_r`, `var_dump`, `sprintf`).
-
-This will feel like a real **reference manual page** while still being beginner-friendly for your students.
-
----
-
-````markdown
 # PHP Output Functions – Documentation
 
 This document explains the major output and debugging functions in PHP:  
