@@ -109,6 +109,24 @@ switch ($day) {
         echo '<br/>Invalid day';
 }
 
+// If a bro has 6D, 10BDT, 20AD he can access premium, if he has 20USD he can access VIP plan
+$bal = '6D';
+$bal2 = '10BDT';
+$bal3 = '20USD';
+
+switch ($bal) {
+    case '6D':
+    case '10BDT':
+    case '20AD':
+        echo '<br/>You have access to Premium Plan';
+        break;
+    case '20USD':
+        echo '<br/>You have access to VIP Plan';
+        break;
+    default:
+        echo '<br/>You have access to Free Plan';
+}
+
 // conutinuing with match the same expression
 $output = match ($day) {
     'Mon' => 'Today is Monday',
